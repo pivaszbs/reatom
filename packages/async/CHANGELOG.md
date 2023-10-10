@@ -1,5 +1,63 @@
 # Changelog
 
+## [3.10.0](https://github.com/pivaszbs/reatom/compare/async-v3.9.4...async-v3.10.0) (2023-10-10)
+
+
+### Features
+
+* **async:** add "ignoreAbort" and refactor withCache ([f404abf](https://github.com/pivaszbs/reatom/commit/f404abfa36e91db9d109094eee672098ad7c6536))
+* **async:** add reatomAsyncReaction ([e44e641](https://github.com/pivaszbs/reatom/commit/e44e6417b5795c380e8c2e5dd1e576e7a6462bc0))
+* **async:** add withPersist for withCache ([dab74e9](https://github.com/pivaszbs/reatom/commit/dab74e964d8092387e9bcfb24f3724cb088ec38c))
+* **async:** refactor withCache, add shouldFulfill option for SWR ([eb54d34](https://github.com/pivaszbs/reatom/commit/eb54d34598ad48dd51ee21cfd2e3c0964bfdc7ae))
+
+
+### Bug Fixes
+
+* **all-settled:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **async:** [#489](https://github.com/pivaszbs/reatom/issues/489) error in console ([#534](https://github.com/pivaszbs/reatom/issues/534)) ([2f75da5](https://github.com/pivaszbs/reatom/commit/2f75da59325062c05168199a0c247da79fd3fc38))
+* **async:** abort should not stale for reatomAsyncReaction ([2a7e272](https://github.com/pivaszbs/reatom/commit/2a7e2720bb5e8a681128eac161535e350fc04c59))
+* **async:** add mapFulfill to dataAtom for correct cache init ([994c0ff](https://github.com/pivaszbs/reatom/commit/994c0ff483c0c8aafea276bc4bc6006bc7b5a1b9))
+* **async:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **async:** errorAtom AtomMut ([774ebc0](https://github.com/pivaszbs/reatom/commit/774ebc0c649cac50073c0bdeae47a27780577c5c))
+* **async:** prevent unhandled exception for reatomAsyncReaction ([4b940ae](https://github.com/pivaszbs/reatom/commit/4b940aee188ccfcb66a137834f5b877b24321e00))
+* **async:** promiseAtomConnection ([cc3b707](https://github.com/pivaszbs/reatom/commit/cc3b707312ba504e8853facf5dce3dbbfafd4bbe))
+* **async:** reatomAsyncReaction AsyncCtxSpy ([c0d014d](https://github.com/pivaszbs/reatom/commit/c0d014d987cf1b3081133b45a146c30e107fb063))
+* **async:** reatomAsyncReaction direct call ([e88b96c](https://github.com/pivaszbs/reatom/commit/e88b96cadfe40ff25432d6bb5d69cbbc20ce67f8))
+* **async:** reatomAsyncReaction withCache ([3bfee9d](https://github.com/pivaszbs/reatom/commit/3bfee9de70e5c645979e81abb6edacde3e8ecac7))
+* **async:** retry abort ([7722626](https://github.com/pivaszbs/reatom/commit/7722626effd408f81a6a1864ce12faa43a617581))
+* **async:** shallow equal memo for withStatusesAtom ([8042e18](https://github.com/pivaszbs/reatom/commit/8042e18dc0d38844628c73ba6a7a2bb2beaf4256))
+* **async:** withCache and withAbort same params ([0466036](https://github.com/pivaszbs/reatom/commit/0466036a2f6cf1dbc3a2f8ce70a5a586825fba85))
+* **async:** withCache for reject ([034d5ec](https://github.com/pivaszbs/reatom/commit/034d5ec5cc4e7581083707275a6c3dd83f1507e0))
+* **async:** withStatusesAtom and SWR ([b8d2798](https://github.com/pivaszbs/reatom/commit/b8d2798a29b37cbb5f3a441adf4ca332a449ace9))
+* **async:** withStatusesAtom missing ctx ([9c12a7c](https://github.com/pivaszbs/reatom/commit/9c12a7c74dcb2ac5394251e9e0a7fd3c3896d42a))
+* **core-v1:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **core-v2:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **core:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **effects:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **eslint-plugin:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **form-web:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **form:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **framework:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **hooks:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **lens:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **logger:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **navigation:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* new way of hooking up typings [#560](https://github.com/pivaszbs/reatom/issues/560) ([#568](https://github.com/pivaszbs/reatom/issues/568)) ([99550e9](https://github.com/pivaszbs/reatom/commit/99550e98c34df7efd8431282a868a0483bed5dc8))
+* **npm-cookie-baker:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-history:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-lit:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-react:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-svelte:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **persist-web-storage:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **persist:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **primitives:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **react-v1:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **react-v2:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **testing:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **timer:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **undo:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **utils:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+
 ## [3.9.4](https://github.com/artalar/reatom/compare/async-v3.9.3...async-v3.9.4) (2023-10-09)
 
 

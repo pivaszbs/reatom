@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.7.0](https://github.com/pivaszbs/reatom/compare/npm-react-v3.6.1...npm-react-v3.7.0) (2023-10-10)
+
+
+### Features
+
+* **npm-react:** add reatomComponent ([e170a88](https://github.com/pivaszbs/reatom/commit/e170a88dc594b385dd2855974594c1dd87bdde66))
+* **npm-react:** add useAtomPromise ([f151d45](https://github.com/pivaszbs/reatom/commit/f151d455b4e7e32134779da6a1f5bc22620b9cbf))
+* **npm-react:** add useCreateCtx ([fdffc19](https://github.com/pivaszbs/reatom/commit/fdffc190be9e2deee9f24a7c8da1088c3e23252b))
+* **npm-react:** do not recreate computed atom for deps change ([a4523c2](https://github.com/pivaszbs/reatom/commit/a4523c269812da97fd310b4246bab9779a6596dd))
+
+
+### Bug Fixes
+
+* **all-settled:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **async:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **core-v1:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **core-v2:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **core:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **effects:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **eslint-plugin:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **form-web:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **form:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **framework:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **hooks:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **lens:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **logger:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **navigation:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* new way of hooking up typings [#560](https://github.com/pivaszbs/reatom/issues/560) ([#568](https://github.com/pivaszbs/reatom/issues/568)) ([99550e9](https://github.com/pivaszbs/reatom/commit/99550e98c34df7efd8431282a868a0483bed5dc8))
+* **npm-cookie-baker:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-history:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-lit:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-react:** a few reatomComponent instances ([3d9d080](https://github.com/pivaszbs/reatom/commit/3d9d080723eb207edc77e5ccd6ea1cba81a1d123))
+* **npm-react:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **npm-react:** computed atom ([f5deadf](https://github.com/pivaszbs/reatom/commit/f5deadf87270e47592194d5b98e6803d708686b4))
+* **npm-react:** reatomComponent improvements ([f2df032](https://github.com/pivaszbs/reatom/commit/f2df032ab6c39c5e0981b7883296967c3526c457))
+* **npm-react:** remove useRefSetup ([8d769fa](https://github.com/pivaszbs/reatom/commit/8d769fa367866e53341ccab9a6201301c9d2b583))
+* **npm-react:** stale deps ([3ea9251](https://github.com/pivaszbs/reatom/commit/3ea92518b5bb5382f0407fb4a87ae3c9c9c36ae2))
+* **npm-react:** useAtom recreation ([65fb433](https://github.com/pivaszbs/reatom/commit/65fb4338ac2b7dbcbdbcb26759ad9259dba0226c))
+* **npm-svelte:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **persist-web-storage:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **persist:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **primitives:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **react-v1:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **react-v2:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **testing:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **timer:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **undo:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+* **utils:** change build output ([5bedebd](https://github.com/pivaszbs/reatom/commit/5bedebda3a1ee92850d10f767686303b8ec2ba0e))
+
 ## [3.6.1](https://github.com/artalar/reatom/compare/npm-react-v3.6.0...npm-react-v3.6.1) (2023-09-15)
 
 

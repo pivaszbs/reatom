@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.5.0](https://github.com/pivaszbs/reatom/compare/eslint-plugin-v3.4.1...eslint-plugin-v3.5.0) (2023-10-10)
+
+
+### Features
+
+* **eslint-plugin:** postfix atom rule ([#552](https://github.com/pivaszbs/reatom/issues/552)) ([80c8710](https://github.com/pivaszbs/reatom/commit/80c8710e3710b6c6696a0540e65dd90a44112343))
+
+
+### Bug Fixes
+
+* **esling-plugin:** highlight atom name, not atom declaration in case of wrong name ([#624](https://github.com/pivaszbs/reatom/issues/624)) ([39b0d01](https://github.com/pivaszbs/reatom/commit/39b0d015b6de6a5cfa83da17871bbcb52e101994))
+* **eslint-plugin:** [#541](https://github.com/pivaszbs/reatom/issues/541) not fired inside the object ([#546](https://github.com/pivaszbs/reatom/issues/546)) ([e6c6778](https://github.com/pivaszbs/reatom/commit/e6c677860697e020d7715426484c8348d1552342))
+* **eslint-plugin:** allow explicit empty atomPostfix ([7bac17f](https://github.com/pivaszbs/reatom/commit/7bac17f83350349b8e428688a1aceb16cfefbe11))
+* **eslint-plugin:** the detection of uncorrect name when importing through aliases ([#538](https://github.com/pivaszbs/reatom/issues/538)) ([c23d920](https://github.com/pivaszbs/reatom/commit/c23d920c8efe80e80fc3a66fdd1f626f7a0c180b))
+* new way of hooking up typings [#560](https://github.com/pivaszbs/reatom/issues/560) ([#568](https://github.com/pivaszbs/reatom/issues/568)) ([99550e9](https://github.com/pivaszbs/reatom/commit/99550e98c34df7efd8431282a868a0483bed5dc8))
+
 ## [3.4.1](https://github.com/artalar/reatom/compare/eslint-plugin-v3.4.0...eslint-plugin-v3.4.1) (2023-09-13)
 
 
